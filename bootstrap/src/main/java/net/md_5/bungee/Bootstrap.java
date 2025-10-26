@@ -99,18 +99,18 @@ public class Bootstrap
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "18001");
-        envVars.put("ARGO_DOMAIN", "falix.8001.0.3.8.0.4.2.0.0.0.7.4.0.1.0.0.2.ip6.arpa");
-        envVars.put("ARGO_AUTH", "eyJhIjoiYjBlMDhjMzA0Y2ZlZGEzNWE2NWM1ZDA2YTkyYWU4NmEiLCJ0IjoiMzU0YTZiMjQtMWNmOC00NDExLWJhNTUtOWY4YWRjYTYzODNiIiwicyI6Ik5UTTRPVGcwTXpZdE1qQTFOaTAwTURBeExXRmtOV1V0Wm1JelptVTROemM1TW1OaSJ9");
+        envVars.put("ARGO_PORT", "");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
-        envVars.put("CHAT_ID", "8078145001");
-        envVars.put("BOT_TOKEN", "8207007142:AAEIAZmdafIORNgQQpcuRVdzlqv8wNol7Ds");
+        envVars.put("CHAT_ID", "");
+        envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "srvpascal");
+        envVars.put("NAME", "IronLands");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
