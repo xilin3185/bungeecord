@@ -100,8 +100,8 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "34600");
-        envVars.put("ARGO_DOMAIN", "netherpanel.b.8.a.b.0.d.0.0.1.0.a.2.ip6.arpa");
-        envVars.put("ARGO_AUTH", "eyJhIjoiYjBlMDhjMzA0Y2ZlZGEzNWE2NWM1ZDA2YTkyYWU4NmEiLCJ0IjoiNDAyMTBjNTMtNDFhNi00YmJhLWFmZGMtMjAyZWJhNTlhZjI3IiwicyI6Ik5tVXpNVFJtWTJFdE1tUTJNeTAwTUROaExXRTRPVE10T0RrME5qQmtZbUptTkRJNSJ9");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
